@@ -12,7 +12,7 @@ on:
 
 jobs:
   job1:
-    name: Mesheryctl Pattern Actions 
+    name: Mesheryctl Pattern Action
     runs-on: ubuntu-latest
     steps:
       - name: mesheryctl pattern action

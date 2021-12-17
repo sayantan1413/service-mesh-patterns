@@ -4,11 +4,6 @@ on:
     branches:
       - 'master'
   # if manually triggering, provide a provider token yourself
-  workflow_dispatch:
-    inputs:
-      provider_token:
-        description: "Meshery auth token"
-        required: true
 
 jobs:
   job1:

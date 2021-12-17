@@ -7,7 +7,7 @@ on:
 
 jobs:
   job1:
-    name: Mesheryctl Pattern Action
+    name: Mesheryctl Pattern Actions
     runs-on: ubuntu-latest
     steps:
       - name: mesheryctl pattern action

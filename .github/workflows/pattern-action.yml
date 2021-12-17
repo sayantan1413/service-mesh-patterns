@@ -18,6 +18,6 @@ jobs:
       - name: mesheryctl pattern action
         uses: sayantan1413/mesheryctl-service-mesh-patterns-action@master
         with:
-          provider_token: ${{ github.event.inputs.provider_token }}
+          provider_token: ${{ secrets.PROVIDER_TOKEN }}
           platform: docker
           url: https://raw.githubusercontent.com/service-mesh-patterns/service-mesh-patterns/master/samples/IstioFilterPattern.yaml
